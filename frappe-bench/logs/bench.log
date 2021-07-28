@@ -1,0 +1,1057 @@
+2021-06-02 12:22:01,924 DEBUG cd frappe-bench && /Users/andela/.pyenv/versions/3.7.10/bin/virtualenv -q env -p python3
+2021-06-02 12:22:03,231 LOG Getting app frappe
+2021-06-02 12:22:03,231 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-06-02 12:24:53,695 LOG installing frappe
+2021-06-02 12:24:53,695 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-06-02 12:30:47,628 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-06-02 12:31:36,321 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-06-02 12:31:37,072 DEBUG cd frappe-bench && bench build
+2021-06-02 12:31:37,422 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build
+2021-06-02 12:32:18,679 LOG setting up backups
+2021-06-02 12:32:33,198 INFO Bench frappe-bench initialized
+2021-06-02 12:33:02,855 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:33:03,728 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 12:33:03,758 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 12:33:03,759 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 12:33:03,782 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 12:33:03,857 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 12:33:03,898 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 12:34:18,591 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:42:53,783 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:43:22,395 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:44:59,969 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:55:00,925 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:55:01,524 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 12:55:01,538 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 12:55:01,563 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 12:55:01,573 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 12:55:01,582 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 12:55:01,602 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 12:57:46,379 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:58:02,437 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 12:58:56,036 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:01:12,859 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-02 13:01:19,673 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:01:24,135 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-02 13:06:12,679 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:11:16,154 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:11:17,079 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 13:11:17,183 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 13:11:17,217 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 13:11:17,229 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 13:11:17,229 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 13:11:17,237 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 13:16:50,147 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench new-site benefactors
+2021-06-02 13:32:24,595 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:34:02,936 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:35:24,004 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:35:24,722 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 13:35:24,724 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 13:35:24,772 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 13:35:24,789 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 13:35:24,802 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 13:35:24,814 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 13:37:26,528 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 13:37:27,237 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 13:37:27,237 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 13:37:27,239 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 13:37:27,239 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 13:37:27,350 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 13:37:27,353 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 13:43:48,590 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench get-app https://github.com/Benefactors-Ltd/vsdc.git
+2021-06-02 13:43:48,748 LOG Getting app vsdc
+2021-06-02 13:43:48,749 DEBUG cd ./apps && git clone https://github.com/Benefactors-Ltd/vsdc.git  --depth 1 --origin upstream
+2021-06-02 13:43:52,910 LOG installing vsdc
+2021-06-02 13:43:52,911 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-02 13:44:16,923 DEBUG bench build --app vsdc
+2021-06-02 13:44:17,333 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build --app vsdc
+2021-06-02 13:55:31,617 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench install-app vsdc
+2021-06-02 14:01:12,681 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench get-app https://github.com/org/app_name
+2021-06-02 14:01:12,874 LOG Getting app app_name
+2021-06-02 14:01:12,876 DEBUG cd ./apps && git clone https://github.com/org/app_name  --depth 1 --origin upstream
+2021-06-02 14:02:31,746 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench get-app https://github.com/Benefactors-Ltd/vsdc.git
+2021-06-02 14:02:37,653 LOG Getting app vsdc
+2021-06-02 14:02:37,656 DEBUG cd ./apps && git clone https://github.com/Benefactors-Ltd/vsdc.git  --depth 1 --origin upstream
+2021-06-02 14:02:46,319 LOG installing vsdc
+2021-06-02 14:02:46,319 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-02 14:02:50,454 DEBUG bench build --app vsdc
+2021-06-02 14:02:50,625 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build --app vsdc
+2021-06-02 14:03:45,195 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors install-app vsdc
+2021-06-02 14:04:22,211 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench use benefactors
+2021-06-02 14:04:30,060 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors install-app vsdc
+2021-06-02 14:04:45,355 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 14:04:58,850 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 14:04:59,691 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 14:04:59,720 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 14:04:59,760 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 14:04:59,764 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 14:04:59,764 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 14:04:59,770 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 14:10:25,722 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 14:10:26,526 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 14:10:26,577 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 14:10:26,611 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 14:10:26,620 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 14:10:26,636 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 14:10:26,647 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 14:10:47,364 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 14:35:58,654 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 14:42:49,168 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 19:09:31,926 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 19:09:32,789 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 19:09:32,900 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 19:09:32,927 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 19:09:32,978 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 19:09:33,092 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 19:09:33,097 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 19:17:40,527 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 19:20:29,506 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors migrate
+2021-06-02 19:23:26,287 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build
+2021-06-02 19:27:45,002 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site [sitename] migrate
+2021-06-02 19:27:57,230 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors migrate
+2021-06-02 19:36:22,123 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 19:37:01,187 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 19:39:37,820 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-02 19:39:38,573 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-02 19:39:38,653 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-02 19:39:38,715 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-02 19:39:38,753 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-02 19:39:38,775 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-02 19:39:38,872 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-02 20:22:39,681 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migate
+2021-06-02 20:22:39,684 WARNING /Users/andela/.pyenv/versions/3.7.10/bin/bench migate executed with exit code 2
+2021-06-02 20:22:49,693 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-02 20:23:05,450 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build
+2021-06-02 20:25:00,337 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench clear cache
+2021-06-02 20:25:00,341 WARNING /Users/andela/.pyenv/versions/3.7.10/bin/bench clear cache executed with exit code 2
+2021-06-02 22:15:44,612 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench clear cache
+2021-06-02 22:15:44,616 WARNING /Users/andela/.pyenv/versions/3.7.10/bin/bench clear cache executed with exit code 2
+2021-06-02 22:16:38,823 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench clear-cache
+2021-06-02 22:23:24,290 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench clear-cache
+2021-06-02 22:40:11,331 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors set-config developer_mode 1
+2021-06-02 22:40:20,150 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-03 12:00:00,932 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-03 14:45:27,479 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-03 14:55:52,840 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-03 14:55:55,065 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-03 14:55:55,099 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-03 14:55:55,119 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-03 14:55:55,124 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-03 14:55:55,132 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-03 14:55:55,284 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-03 16:55:23,144 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-03 16:55:23,971 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-03 16:55:24,026 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-03 16:55:24,044 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-03 16:55:24,074 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-03 16:55:24,104 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-03 16:55:24,182 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-03 18:00:00,787 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-05 11:09:34,581 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-05 11:12:58,073 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-05 11:12:58,976 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-05 11:12:59,004 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-05 11:12:59,045 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-05 11:12:59,050 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-05 11:12:59,059 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-05 11:12:59,159 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-05 12:00:01,314 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-05 18:00:00,977 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-06 12:00:01,745 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-06 18:00:01,969 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-07 15:29:22,941 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-07 15:29:23,975 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-07 15:29:24,102 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-07 15:29:24,110 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-07 15:29:24,178 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-07 15:29:24,206 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-07 15:29:24,208 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-07 18:00:01,671 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-08 00:00:01,517 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-08 18:00:02,146 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-08 18:36:03,600 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-08 18:36:04,303 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-08 18:36:04,303 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-08 18:36:04,303 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-08 18:36:04,318 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-08 18:36:04,320 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-08 18:36:04,401 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-09 15:37:16,344 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-09 15:41:04,339 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-09 15:41:05,264 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-09 15:41:05,297 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-09 15:41:05,299 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-09 15:41:05,461 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-09 15:41:05,471 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-09 15:41:05,683 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-09 15:46:53,135 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-09 15:49:56,854 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-09 15:49:57,673 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-09 15:49:57,684 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-09 15:49:57,702 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-09 15:49:57,743 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-09 15:49:57,745 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-09 15:49:57,857 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-09 18:00:00,979 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-10 15:33:09,587 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-10 15:33:10,330 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-10 15:33:10,331 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-10 15:33:10,333 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-10 15:33:10,389 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-10 15:33:10,415 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-10 15:33:10,485 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-10 18:00:01,251 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-11 06:00:01,620 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-11 06:08:13,896 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-11 06:08:14,664 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-11 06:08:14,670 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-11 06:08:14,673 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-11 06:08:14,739 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-11 06:08:14,737 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-11 06:08:14,858 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-11 22:09:42,664 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-11 22:09:43,402 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-11 22:09:43,403 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-11 22:09:43,419 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-11 22:09:43,429 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-11 22:09:43,460 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-11 22:09:43,566 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-12 06:10:10,211 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-12 06:10:11,179 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-12 06:10:11,186 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-12 06:10:11,188 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-12 06:10:11,200 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-12 06:10:11,200 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-12 06:10:11,333 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-12 18:00:01,005 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-13 13:59:33,100 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-13 13:59:33,793 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-13 13:59:33,833 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-13 13:59:33,841 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-13 13:59:33,868 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-13 13:59:33,880 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-13 13:59:33,880 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-14 12:00:01,146 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-14 13:06:51,265 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute https://vsdctest.rra.gov.rw/wisapi/
+2021-06-14 13:07:33,938 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute https://vsdctest.rra.gov.rw/wisapi/
+2021-06-14 13:09:14,945 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-14 13:10:13,900 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirement
+2021-06-14 13:10:13,908 WARNING /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirement executed with exit code 2
+2021-06-14 13:10:18,531 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-06-14 13:10:18,537 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-06-14 13:10:22,618 LOG installing frappe
+2021-06-14 13:10:22,618 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-06-14 13:10:28,037 DEBUG cd ./apps/frappe && yarn install
+2021-06-14 13:10:29,444 LOG installing vsdc
+2021-06-14 13:10:29,444 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-14 13:11:22,945 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-14 13:14:05,484 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-14 13:16:29,092 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-14 13:21:19,521 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-14 13:23:54,770 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-14 13:28:51,788 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-14 13:29:04,099 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-14 13:30:37,960 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-14 13:31:29,824 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-14 13:33:33,948 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport
+2021-06-15 06:00:01,720 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-15 08:45:22,712 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-15 08:45:23,392 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-15 08:45:23,398 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-15 08:45:23,405 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-15 08:45:23,407 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-15 08:45:23,408 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-15 08:45:23,421 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-15 16:29:17,617 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-15 16:29:18,516 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-15 16:29:18,594 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-15 16:29:18,605 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-15 16:29:18,656 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-15 16:29:18,755 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-15 16:29:18,774 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-15 21:21:39,170 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-15 21:21:41,065 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-15 21:21:41,065 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-15 21:21:41,087 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-15 21:21:41,118 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-15 21:21:41,207 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-15 21:21:41,211 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-16 10:08:22,554 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-16 10:08:23,437 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-16 10:08:23,455 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-16 10:08:23,474 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-16 10:08:23,520 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-16 10:08:23,537 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-16 10:08:23,544 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-16 11:28:09,393 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-16 11:28:10,053 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-16 11:28:10,119 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-16 11:28:10,151 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-16 11:28:10,158 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-16 11:28:10,195 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-16 11:28:10,212 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-16 12:00:00,754 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-16 18:00:01,461 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-17 17:26:50,913 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench console
+2021-06-17 17:47:28,779 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench console
+2021-06-17 17:58:10,865 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench console
+2021-06-17 18:00:01,923 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-17 18:30:17,117 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench console
+2021-06-17 18:49:17,903 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench console
+2021-06-18 12:00:01,014 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-18 16:33:24,416 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:39:34,566 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:43:20,385 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:44:02,887 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:46:35,679 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:47:50,844 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:48:13,421 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:49:12,258 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:52:33,243 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:53:06,780 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:53:35,348 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:54:32,126 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:58:15,542 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:59:06,550 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 16:59:53,203 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-18 21:08:51,011 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-19 12:00:01,895 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-19 17:41:54,168 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-19 17:41:55,062 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-19 17:41:55,067 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-19 17:41:55,090 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-19 17:41:55,111 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-19 17:41:55,207 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-19 17:41:55,248 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-19 17:43:00,729 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute
+2021-06-19 17:44:11,169 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-19 17:45:15,541 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-19 18:00:02,117 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-20 10:59:52,021 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:00:42,796 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:03:48,496 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:04:52,772 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:06:22,527 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:06:48,900 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:07:10,060 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:09:21,857 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:10:34,431 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:11:40,720 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:16:04,084 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:16:55,149 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:21:11,275 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:30:53,568 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:31:39,162 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:31:55,788 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:54:48,031 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:55:11,104 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:56:02,224 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:57:16,240 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 11:57:26,843 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:00:00,517 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-20 12:03:37,107 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:04:22,174 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:07:49,583 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:09:04,700 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:09:43,231 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:10:44,687 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:12:09,245 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:15:57,620 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:17:50,050 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:20:17,682 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:52:58,448 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 12:55:48,805 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.dailyzreport.dailyzreport.send_zreport
+2021-06-20 13:12:23,502 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.ZReport.ZReport.send_zreport
+2021-06-20 13:12:38,895 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.ZReport.ZReport.send_zreport
+2021-06-20 13:13:22,294 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.ZReport.ZReport.send_zreport
+2021-06-20 13:14:21,314 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 13:21:37,532 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 15:33:29,654 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 15:46:44,476 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 15:52:49,748 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:03:21,967 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:03:48,582 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:04:56,457 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:05:43,971 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:06:07,616 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:06:39,566 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:10:02,982 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:10:14,138 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:10:35,018 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:14:40,065 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:15:07,312 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:16:47,028 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:20:22,377 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:26:23,640 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:26:51,448 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:34:32,963 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 16:35:12,484 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:35:31,597 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:36:07,049 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:36:53,072 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:37:15,103 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:38:18,643 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:40:10,451 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:41:41,483 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:42:44,043 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 21:43:55,202 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-20 22:00:08,812 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 08:53:32,129 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-21 08:53:32,927 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-21 08:53:32,931 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-21 08:53:32,939 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-21 08:53:32,941 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-21 08:53:32,969 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-21 08:53:32,941 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-21 08:55:07,708 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 09:03:44,364 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 09:44:35,581 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-21 09:44:36,325 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-21 09:44:36,355 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-21 09:44:36,364 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-21 09:44:36,391 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-21 09:44:36,395 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-21 09:44:36,405 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-21 15:10:47,657 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 15:11:53,139 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 15:12:09,326 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 15:37:42,509 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 15:38:53,273 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 15:42:51,089 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:00:39,335 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:02:00,124 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:02:09,817 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:03:26,104 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:04:14,660 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:04:32,151 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:10:41,012 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:19:27,996 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:20:08,961 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:21:10,029 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:22:31,290 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-21 16:26:21,229 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 10:39:35,543 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 10:48:25,010 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 12:00:01,873 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-22 13:57:18,728 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 13:57:25,117 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 13:59:01,951 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 14:43:20,972 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 15:09:30,780 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-22 15:09:31,452 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-22 15:09:31,451 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-22 15:09:31,474 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-22 15:09:31,485 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-22 15:09:31,485 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-22 15:09:31,493 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-22 15:54:10,086 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 15:54:31,979 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 15:55:35,252 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 15:56:23,963 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 18:00:01,954 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-22 21:48:21,896 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-22 22:00:39,084 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 09:04:03,042 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute --args “{‘--args “{‘’}” vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 09:13:09,585 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args “{‘’}” myApp.myApp.doctype.myDocType.myPythonModule.myMethod
+2021-06-23 09:14:51,463 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args “{‘myapp’}” vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 09:15:14,037 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args “{‘benefactors’}” vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 09:33:55,619 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-23 09:33:56,350 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-23 09:33:56,362 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-23 09:33:56,374 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-23 09:33:56,409 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-23 09:33:56,508 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-23 09:33:56,537 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-23 10:22:28,599 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-23 10:23:31,297 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-23 10:23:32,112 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-23 10:23:32,144 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-23 10:23:32,145 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-23 10:23:32,156 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-23 10:23:32,165 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-23 10:23:32,270 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-23 10:28:54,513 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 10:29:47,545 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 10:39:13,499 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 10:39:30,833 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 10:40:24,789 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:03:28,496 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:05:34,207 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:06:26,459 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:06:49,768 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:09:12,818 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:20:58,776 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:21:27,918 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:21:54,469 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:24:40,901 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:49:16,739 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:49:46,897 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:50:36,180 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:51:10,272 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 11:51:40,982 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:00:01,979 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-23 12:10:50,986 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:12:01,378 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:12:06,794 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:15:00,478 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:15:47,134 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:17:54,777 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:19:45,734 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:20:14,906 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 12:38:27,931 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreportclear
+2021-06-23 12:38:35,417 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreportclear
+2021-06-23 12:38:56,700 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreportclear
+2021-06-23 12:40:01,710 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:14:44,580 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreportclear
+2021-06-23 13:15:04,682 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:18:50,469 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:22:27,661 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:26:13,635 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:27:10,511 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:28:16,904 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:28:57,103 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:29:58,350 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:30:13,883 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:32:46,663 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:33:06,330 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 13:34:03,688 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-23 20:39:25,217 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-23 20:39:41,570 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench build
+2021-06-23 20:42:05,127 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-06-23 20:42:05,135 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-06-23 20:42:09,864 LOG installing frappe
+2021-06-23 20:42:09,864 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-06-23 20:42:14,750 DEBUG cd ./apps/frappe && yarn install
+2021-06-23 20:42:25,010 LOG installing vsdc
+2021-06-23 20:42:25,010 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-23 20:43:27,151 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-23 20:43:32,649 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-23 20:43:33,481 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-23 20:43:33,502 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-23 20:43:33,511 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-23 20:43:33,522 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-23 20:43:33,629 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-23 20:43:33,640 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-23 20:45:50,868 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-23 20:49:48,565 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-23 20:50:07,819 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-06-23 20:50:07,829 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-06-23 20:50:12,005 LOG installing frappe
+2021-06-23 20:50:12,005 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-06-23 20:50:16,255 DEBUG cd ./apps/frappe && yarn install
+2021-06-23 20:50:17,064 LOG installing vsdc
+2021-06-23 20:50:17,065 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-23 20:50:38,251 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-23 20:50:46,147 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-23 20:50:47,032 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-23 20:50:47,036 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-23 20:50:47,041 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-23 20:50:47,045 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-23 20:50:47,046 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-23 20:50:47,167 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-23 21:17:03,475 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args { myApp.myApp.doctype.myDocType.myPythonModule.myMethod
+2021-06-23 21:18:02,060 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args {'My Company Name'} myApp.myApp.doctype.myDocType.myPythonModule.myMethod
+2021-06-23 21:19:33,113 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site dev.erpnext.host execute --args {'My Compan} vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 21:20:27,108 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors execute --args {'My Compan'} vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 21:20:49,226 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors execute --args {'My Compan'} vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 21:22:41,150 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors execute --args {data:{ } vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-23 21:23:58,374 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site benefactors execute --args {  tin:100018436,} vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-24 00:00:01,621 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-24 06:00:02,059 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-24 08:06:16,594 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-24 08:06:17,515 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-24 08:06:17,512 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-24 08:06:17,517 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-24 08:06:17,526 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-24 08:06:17,542 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-24 08:06:17,557 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-24 08:14:41,439 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-24 08:18:45,893 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-24 09:49:10,584 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-24 09:49:11,310 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-24 09:49:11,316 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-24 09:49:11,336 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-24 09:49:11,347 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-24 09:49:11,441 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-24 09:49:11,507 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-24 10:03:57,520 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-24 10:07:49,678 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-24 12:13:53,830 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:14:16,011 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:15:32,803 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:15:48,861 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:16:22,928 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:16:45,936 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:17:51,711 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:18:02,915 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:18:37,655 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:18:57,952 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:19:16,414 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:19:31,217 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:28:32,435 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:28:47,774 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:29:08,138 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:29:24,546 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:29:53,517 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:30:22,071 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:36:03,040 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:51:38,831 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:57:08,230 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:58:26,303 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 12:59:07,580 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:02:00,497 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:02:54,556 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:03:32,124 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:04:02,974 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:04:11,912 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 13:04:24,311 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 14:01:25,579 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 14:01:39,421 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 14:01:48,857 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 14:01:56,515 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 14:59:07,312 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:41:39,757 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:41:49,018 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:42:20,075 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:42:44,390 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:43:02,722 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:44:11,747 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:53:11,158 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:55:07,226 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:56:18,609 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:56:59,719 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:57:21,370 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 15:59:16,308 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:02:10,211 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:02:31,020 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:02:42,221 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:02:56,820 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:03:07,371 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:03:19,277 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:03:36,762 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:03:46,097 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:04:00,048 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:47:38,780 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:47:43,900 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 16:55:04,579 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:01:51,502 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:02:49,830 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:02:52,855 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:03:37,313 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:04:02,122 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:04:18,943 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:05:02,925 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:05:37,586 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:06:13,301 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:06:27,997 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:07:03,413 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:07:48,149 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:08:38,293 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:12:33,624 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:13:56,425 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:15:07,389 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:15:56,485 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:17:46,685 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:18:25,212 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:19:27,171 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:20:47,376 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:22:16,852 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:24:07,677 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:31:53,002 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:36:54,270 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:37:19,634 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:39:09,906 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:39:49,998 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:41:34,219 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 17:45:51,739 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-24 18:00:01,405 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-24 23:38:30,716 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-24 23:38:31,498 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-24 23:38:31,499 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-24 23:38:31,499 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-24 23:38:31,500 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-24 23:38:31,501 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-24 23:38:31,511 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-25 00:00:01,093 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-25 12:00:01,685 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-25 16:28:13,105 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-25 16:28:13,742 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-25 16:28:13,788 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-25 16:28:13,793 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-25 16:28:13,797 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-25 16:28:13,799 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-25 16:28:13,876 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-27 12:08:09,395 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-27 21:12:07,155 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-27 21:12:15,935 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-27 21:18:16,212 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-27 21:28:52,522 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-27 21:28:53,459 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-27 21:28:53,478 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-27 21:28:53,483 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-27 21:28:53,512 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-27 21:28:53,514 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-27 21:28:53,534 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-27 21:32:50,421 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-27 21:34:02,036 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-27 21:34:37,574 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-27 21:35:01,620 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-28 05:52:30,976 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-28 05:52:32,008 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-28 05:52:32,036 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-28 05:52:32,050 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-28 05:52:32,052 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-28 05:52:32,151 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-28 05:52:32,195 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-28 06:03:39,196 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-28 06:05:33,514 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-28 06:07:02,415 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-28 06:07:52,169 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-28 12:00:01,282 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-28 15:33:36,266 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-28 15:33:37,107 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-28 15:33:37,113 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-28 15:33:37,149 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-28 15:33:37,159 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-28 15:33:37,163 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-28 15:33:37,167 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-28 15:55:07,274 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-28 15:56:23,569 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-06-28 15:56:23,580 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-06-28 15:56:51,968 LOG installing frappe
+2021-06-28 15:56:51,969 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-06-28 15:56:57,017 DEBUG cd ./apps/frappe && yarn install
+2021-06-28 15:57:03,451 LOG installing vsdc
+2021-06-28 15:57:03,455 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-28 21:33:05,953 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_recvaudit
+2021-06-28 22:17:56,553 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 22:18:10,943 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 22:18:45,858 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 22:19:10,478 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 22:20:42,417 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 22:21:36,122 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 23:00:33,519 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 23:00:43,568 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 23:40:57,067 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 23:44:35,833 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-28 23:45:09,349 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 00:03:14,767 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-29 08:14:47,272 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:26:48,886 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:27:59,950 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:29:14,540 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:29:42,160 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:30:09,543 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:48:17,597 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:56:21,691 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:56:33,510 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-06-29 08:56:51,104 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-06-29 08:56:51,115 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-06-29 08:56:53,741 LOG installing frappe
+2021-06-29 08:56:53,741 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-06-29 08:56:58,819 DEBUG cd ./apps/frappe && yarn install
+2021-06-29 08:56:59,522 LOG installing vsdc
+2021-06-29 08:56:59,524 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-06-29 08:57:48,317 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:59:07,674 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 08:59:17,682 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 09:04:20,069 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-29 09:40:27,472 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-29 09:40:35,133 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-29 09:40:41,285 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-29 09:47:26,864 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-29 09:47:27,648 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-29 09:47:27,663 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-29 09:47:27,705 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-29 09:47:27,710 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-29 09:47:27,717 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-29 09:47:27,747 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-29 09:49:34,604 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-29 09:50:59,054 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-29 09:51:32,536 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute --help
+2021-06-29 12:01:14,708 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-29 21:05:23,726 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-29 21:05:24,598 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-29 21:05:24,598 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-29 21:05:24,630 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-29 21:05:24,644 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-29 21:05:24,655 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-29 21:05:24,747 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-29 21:07:20,269 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-29 21:09:18,767 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-29 21:10:03,914 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-29 21:10:44,525 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-29 21:13:56,721 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-30 06:00:01,194 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-30 06:42:19,837 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 06:43:28,161 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.receipt.receipt.process_receipt
+2021-06-30 08:54:23,048 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 08:55:19,528 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-30 08:55:24,973 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-30 08:55:25,875 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-30 08:55:25,881 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-30 08:55:25,888 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-30 08:55:25,892 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-30 08:55:25,974 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-30 08:55:26,059 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-30 08:55:54,134 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 08:58:26,662 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 10:23:57,699 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 12:39:30,898 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 12:42:52,216 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:43:31,408 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:44:10,969 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:44:52,077 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:55:35,254 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:55:45,347 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:56:13,127 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:56:54,330 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:57:18,941 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:57:48,804 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 12:59:26,656 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.rra_backoffice.backoffice_api.start_web
+2021-06-30 13:05:40,381 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:06:40,453 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:08:14,091 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:19:00,390 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:20:46,658 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:23:30,000 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:24:13,552 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:26:09,603 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:26:27,724 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:44:32,650 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-30 13:44:33,446 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-30 13:44:33,461 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-30 13:44:33,471 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-30 13:44:33,473 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-30 13:44:33,490 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-30 13:44:33,491 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-30 13:59:08,614 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:59:29,417 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 13:59:51,029 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 14:00:09,695 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.zreport.zreport.send_zreport
+2021-06-30 17:42:34,752 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench restart
+2021-06-30 17:42:44,648 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-30 17:42:45,534 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-30 17:42:45,541 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-30 17:42:45,549 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-30 17:42:45,557 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-30 17:42:45,559 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-30 17:42:45,584 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-30 18:02:40,793 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-06-30 18:06:44,898 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-30 18:07:12,081 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-30 18:09:23,135 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-30 18:14:05,244 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-30 18:15:08,819 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-30 18:15:47,201 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-30 18:39:07,330 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-06-30 18:39:08,146 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-06-30 18:39:08,380 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-06-30 18:39:08,422 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-06-30 18:39:08,494 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-06-30 18:39:08,540 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-06-30 18:39:08,558 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-06-30 21:05:51,279 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit. send_cmdaudit
+2021-06-30 21:06:28,654 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-30 21:07:23,751 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-06-30 21:16:21,793 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 07:08:01,244 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-07-02 07:08:02,151 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-07-02 07:08:02,227 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-07-02 07:08:02,233 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-07-02 07:08:02,238 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-07-02 07:08:02,317 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-07-02 07:08:02,354 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-07-02 07:30:37,366 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 07:31:28,024 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 09:03:22,474 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 09:06:56,270 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 09:08:18,539 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 09:09:31,844 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 09:42:22,548 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.send_cmdaudit
+2021-07-02 12:00:01,031 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-02 16:45:39,713 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:45:52,673 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:46:19,284 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:48:10,640 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:52:20,354 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:52:46,027 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 16:54:00,866 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:00:01,392 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-02 18:00:18,836 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:02:46,009 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:04:42,205 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:06:33,893 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:11:56,498 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:12:43,507 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:20:23,790 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:21:09,238 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:24:28,268 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:28:33,514 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:29:04,546 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:29:46,550 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:30:06,500 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:30:25,203 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:30:50,815 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:53:21,032 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-02 18:55:42,393 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 12:28:51,880 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-07-03 12:28:52,671 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-07-03 12:28:52,676 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-07-03 12:28:52,679 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-07-03 12:28:52,680 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-07-03 12:28:52,681 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-07-03 12:28:52,695 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-07-03 13:09:58,678 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:12:36,690 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:15:15,380 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:15:44,860 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:16:14,968 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:17:39,461 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:18:46,477 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:20:05,563 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --site your_site_name reinstall
+2021-07-03 13:23:08,580 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-03 13:26:46,179 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 08:27:45,844 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:04:27,206 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:04:47,188 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:05:09,189 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:05:43,253 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:06:18,426 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:07:22,070 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:08:15,688 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:08:54,229 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:09:23,497 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:09:50,900 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:11:34,711 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:25:20,129 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:47:03,014 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 09:47:44,477 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 10:47:17,899 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 10:48:01,376 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 10:49:27,331 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 10:50:26,231 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recieve_cmdaudit.recieve_cmdaudit.get_audit
+2021-07-05 10:59:36,869 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:00:09,254 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:03:08,789 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:04:29,882 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:10:15,580 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:11:48,135 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:12:10,820 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:13:09,889 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:13:50,406 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:14:13,302 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:29:11,870 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:29:22,789 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:30:01,434 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:34:22,568 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-07-05 11:34:23,358 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-07-05 11:34:23,438 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-07-05 11:34:23,457 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-07-05 11:34:23,528 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-07-05 11:34:23,529 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-07-05 11:34:23,707 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-07-05 11:35:52,829 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:37:10,616 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:38:08,430 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:38:45,370 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:39:53,439 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:40:19,230 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:41:16,257 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:42:26,840 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:43:21,494 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:45:56,967 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:50:32,341 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 11:51:00,104 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:00:01,632 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-05 12:03:05,610 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:06:07,583 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:06:42,795 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:07:21,834 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:08:51,365 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:11:00,735 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:11:26,881 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:25:07,281 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.get_audit
+2021-07-05 12:25:14,077 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 12:25:31,583 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 12:27:11,972 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 12:28:35,338 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 12:29:11,844 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 12:29:29,947 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 14:57:59,481 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 14:58:29,738 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 14:59:51,721 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:00:48,204 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:01:21,401 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:01:52,918 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:04:11,614 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:09:40,772 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:10:16,788 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:12:11,502 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:18:40,026 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:22:55,076 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:24:49,226 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:33:02,967 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench migrate
+2021-07-05 15:33:24,882 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench setup requirements
+2021-07-05 15:33:24,903 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-07-05 15:33:30,163 LOG installing frappe
+2021-07-05 15:33:30,163 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-07-05 15:33:34,847 DEBUG cd ./apps/frappe && yarn install
+2021-07-05 15:33:38,989 LOG installing vsdc
+2021-07-05 15:33:38,989 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-07-05 15:35:20,506 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:44:00,676 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:44:35,528 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:53:39,491 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:56:21,087 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 15:57:52,809 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 16:17:09,008 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 16:26:45,418 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 16:31:46,328 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 16:38:25,832 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-05 16:47:42,082 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 08:42:34,352 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 08:50:54,114 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:00:07,829 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:02:24,961 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:03:33,256 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:04:38,105 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:06:23,648 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:08:20,184 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:09:10,388 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:09:55,276 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 09:14:01,502 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-06 16:12:08,237 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-07 08:49:19,410 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench execute vsdc.virtual_sdc.doctype.recievecmdaudit.recievecmdaudit.getaudit
+2021-07-09 12:00:01,507 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-11 18:00:01,401 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-12 12:00:01,423 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-13 12:07:35,869 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-14 12:00:02,765 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-14 18:00:02,936 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-15 12:00:01,518 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-15 18:00:01,842 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-16 12:00:02,284 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-17 12:00:02,186 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-17 18:00:00,611 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-18 12:00:02,288 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-18 18:00:01,783 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-19 12:00:02,150 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-20 12:00:01,548 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-21 12:00:02,047 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-22 12:00:02,142 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-22 17:09:03,691 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench start
+2021-07-22 17:09:04,875 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue short
+2021-07-22 17:09:04,883 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue default
+2021-07-22 17:09:04,889 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench worker --queue long
+2021-07-22 17:09:04,903 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench watch
+2021-07-22 17:09:04,907 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench schedule
+2021-07-22 17:09:04,913 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench serve --port 8000
+2021-07-23 12:00:01,677 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-24 12:00:02,053 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-24 18:00:02,876 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-25 18:02:08,584 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-26 18:00:01,599 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-27 12:00:01,539 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-27 18:00:02,081 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup
+2021-07-28 12:01:52,493 INFO /Users/andela/.pyenv/versions/3.7.10/bin/bench --verbose --site all backup

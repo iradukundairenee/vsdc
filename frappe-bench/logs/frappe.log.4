@@ -1,0 +1,665 @@
+2021-06-09 19:49:21,493 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 19:52:02,164 ERROR frappe New Exception collected with id: 2021-06-09 19:52:02.082353-127.0.0.1-a8a
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+2021-06-09 19:57:01,858 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 19:59:57,159 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 20:02:43,172 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 20:18:05,593 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 22:00:02,467 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-09 22:47:37,547 ERROR frappe Could not take error snapshot: characters_written
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.get_zreport'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/andela/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/__init__.py", line 1177, in call
+    return fn(*args, **newargs)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/doctype/dailyreport/dailyreport.py", line 84, in get_zreport
+    response = handle_rra_request(sid="SEND_ZREPORT", data=data)
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/virtual_sdc/rra_backoffice/backoffice_helpers.py", line 41, in handle_rra_request
+    res = xml_api_handler("POST", request, headers={None})
+  File "/Users/andela/Dev2/frappe-bench/apps/vsdc/vsdc/utils/xml_client.py", line 43, in xml_api_handler
+    response = request(method, url, headers=headers, data=payload, verify=False)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/andela/Dev2/frappe-bench/env/lib/python3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='vsdctest.rra.gov.rw', port=443): Max retries exceeded with url: /wisapi/ (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 38, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/Users/andela/Dev2/frappe-bench/apps/frappe/frappe/utils/error.py", line 129, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2021-06-10 21:51:10,731 ERROR frappe New Exception collected with id: 2021-06-10 21:51:10.481188-127.0.0.1-119
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-10 22:11:04,872 ERROR frappe New Exception collected with id: 2021-06-10 22:11:04.719768-127.0.0.1-95c
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-10 22:22:49,386 ERROR frappe New Exception collected with id: 2021-06-10 22:22:49.260750-127.0.0.1-3f8
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-10 22:43:55,414 ERROR frappe New Exception collected with id: 2021-06-10 22:43:55.281952-127.0.0.1-460
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 05:58:23,117 ERROR frappe New Exception collected with id: 2021-06-11 05:58:22.965682-127.0.0.1-02e
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 06:17:34,971 ERROR frappe New Exception collected with id: 2021-06-11 06:17:34.814422-127.0.0.1-a17
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 06:21:27,770 ERROR frappe New Exception collected with id: 2021-06-11 06:21:27.636255-127.0.0.1-7e0
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 08:45:40,243 ERROR frappe New Exception collected with id: 2021-06-11 08:45:40.238323-127.0.0.1-254
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 08:48:25,540 ERROR frappe New Exception collected with id: 2021-06-11 08:48:25.536309-127.0.0.1-838
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 08:53:19,798 ERROR frappe New Exception collected with id: 2021-06-11 08:53:19.676026-127.0.0.1-47e
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 10:04:18,561 ERROR frappe New Exception collected with id: 2021-06-11 10:04:18.551623-127.0.0.1-52b
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-11 10:08:05,535 ERROR frappe New Exception collected with id: 2021-06-11 10:08:05.529521-127.0.0.1-756
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.get_zreport'}
+2021-06-14 13:57:16,236 ERROR frappe New Exception collected with id: 2021-06-14 13:57:16.148789-127.0.0.1-e59
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport'}
+2021-06-14 13:58:24,824 ERROR frappe New Exception collected with id: 2021-06-14 13:58:24.736300-127.0.0.1-0ae
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.dailyreport.dailyreport.send_zreport'}
+2021-06-14 19:28:13,876 ERROR frappe New Exception collected with id: 2021-06-14 19:28:13.784698-127.0.0.1-7cb
+Site: benefactors
+Form Dict: {'doctype': 'DocType', 'docname': 'dailyreport', 'new_name': 'zdailyreport', 'title_field': '', 'merge': '0', 'cmd': 'frappe.model.rename_doc.update_document_title'}
+2021-06-14 20:49:54,887 ERROR frappe New Exception collected with id: 2021-06-14 20:49:54.800238-127.0.0.1-f8b
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-14 20:51:37,232 ERROR frappe New Exception collected with id: 2021-06-14 20:51:37.143020-127.0.0.1-f0f
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-14 20:54:51,487 ERROR frappe New Exception collected with id: 2021-06-14 20:54:51.384485-127.0.0.1-c8e
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-15 18:32:27,012 ERROR frappe New Exception collected with id: 2021-06-15 18:32:26.846575-127.0.0.1-efa
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-15 18:33:25,813 ERROR frappe New Exception collected with id: 2021-06-15 18:33:25.719325-127.0.0.1-674
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-15 18:33:27,131 ERROR frappe New Exception collected with id: 2021-06-15 18:33:27.129180-127.0.0.1-844
+Site: benefactors
+Form Dict: {'cmd': 'vsdc.virtual_sdc.doctype.zdailyreport.zdailyreport.send_zreport'}
+2021-06-16 14:18:43,088 ERROR frappe New Exception collected with id: 2021-06-16 14:18:42.955775-127.0.0.1-610
+Site: benefactors
+Form Dict: {'doc': '{"name":"dailyzreport","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":null,"parentfield":null,"parenttype":null,"idx":0,"search_fields":null,"issingle":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":1,"module":"Virtual SDC","restrict_to_domain":null,"app":null,"autoname":null,"name_case":"","title_field":null,"image_field":null,"timeline_field":null,"sort_field":"modified","sort_order":"DESC","description":null,"colour":null,"read_only":0,"in_create":0,"menu_index":null,"parent_node":null,"smallicon":null,"allow_copy":0,"allow_rename":0,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"print_outline":null,"document_type":"","icon":null,"color":null,"tag_fields":null,"subject":null,"_last_update":null,"engine":"InnoDB","default_print_format":null,"is_submittable":0,"show_name_in_global_search":0,"_user_tags":null,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"route":null,"is_published_field":null,"email_append_to":0,"subject_field":null,"sender_field":null,"quick_entry":0,"track_views":0,"is_virtual":0,"documentation":null,"nsm_parent_field":null,"allow_events_in_timeline":0,"allow_auto_repeat":0,"show_preview_popup":0,"default_email_template":null,"index_web_pages_for_search":1,"_comments":null,"_assign":null,"_liked_by":null,"doctype":"DocType","fields":[{"name":"e9ee73215b","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"tcnt","label":"Daily total number of receipts issued","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"88e2cda100","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"rtcnt","label":"Total number of receipts issue per Receipt","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"59ad121e0a","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"tsa","label":"Total Sale amount per Receipt  including tax","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"ef92dc8917","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"tra","label":"Total Return amount per receipt type including tax","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"9cbff57bc2","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"stva","label":"Total tax for sales amount per receipt","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"d7a4d563f5","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"rtva","label":"Total tax for refund amount per receipt ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"67bda1b583","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"rtncnt","label":"Total number of receipts type Normal","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"ba0225af44","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":8,"fieldname":"rtccnt","label":"Total number of receipts type Copy","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"fc97dbc140","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":9,"fieldname":"rttcnt","label":"Total number for receipts type Training","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"75ce921638","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":10,"fieldname":"rtpcnt","label":"Total number for receipts type Proforma ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"e9cd742b1d","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":11,"fieldname":"tsvt","label":"Total sales tax amount","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"f9965b385a","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":12,"fieldname":"trvt","label":"Total return tax amount ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"49af831420","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":13,"fieldname":"rtocnt","label":"Opening run number per receipt type","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"docstatus":0,"doctype":"DocField","name":"new-docfield-14","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":14,"__unedited":false,"label":"Target table ","fieldname":"table"},{"docstatus":0,"doctype":"DocField","name":"new-docfield-15","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":15,"__unedited":false,"label":"Target data processing","fieldname":"actionCd"},{"docstatus":0,"doctype":"DocField","name":"new-docfield-16","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":16,"__unedited":false,"label":"Report date ","fieldname":"zdt"}],"permissions":[{"name":"b2ec86ee68","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","match":null,"read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"set_user_permissions":0,"doctype":"DocPerm","__unsaved":1}],"actions":[],"links":[],"__last_sync_on":"2021-06-16T10:11:27.684Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-06-16 14:19:02,713 ERROR frappe New Exception collected with id: 2021-06-16 14:19:02.600478-127.0.0.1-dd6
+Site: benefactors
+Form Dict: {'doc': '{"name":"dailyzreport","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":null,"parentfield":null,"parenttype":null,"idx":0,"search_fields":null,"issingle":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":1,"module":"Virtual SDC","restrict_to_domain":null,"app":null,"autoname":null,"name_case":"","title_field":null,"image_field":null,"timeline_field":null,"sort_field":"modified","sort_order":"DESC","description":null,"colour":null,"read_only":0,"in_create":0,"menu_index":null,"parent_node":null,"smallicon":null,"allow_copy":0,"allow_rename":0,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"print_outline":null,"document_type":"","icon":null,"color":null,"tag_fields":null,"subject":null,"_last_update":null,"engine":"InnoDB","default_print_format":null,"is_submittable":0,"show_name_in_global_search":0,"_user_tags":null,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"route":null,"is_published_field":null,"email_append_to":0,"subject_field":null,"sender_field":null,"quick_entry":0,"track_views":0,"is_virtual":0,"documentation":null,"nsm_parent_field":null,"allow_events_in_timeline":0,"allow_auto_repeat":0,"show_preview_popup":0,"default_email_template":null,"index_web_pages_for_search":1,"_comments":null,"_assign":null,"_liked_by":null,"doctype":"DocType","fields":[{"name":"e9ee73215b","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"tcnt","label":"Daily total number of receipts issued","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"88e2cda100","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"rtcnt","label":"Total number of receipts issue per Receipt","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"59ad121e0a","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"tsa","label":"Total Sale amount per Receipt  including tax","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"ef92dc8917","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"tra","label":"Total Return amount per receipt type including tax","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"9cbff57bc2","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"stva","label":"Total tax for sales amount per receipt","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"d7a4d563f5","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"rtva","label":"Total tax for refund amount per receipt ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"67bda1b583","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"rtncnt","label":"Total number of receipts type Normal","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"ba0225af44","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":8,"fieldname":"rtccnt","label":"Total number of receipts type Copy","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"fc97dbc140","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":9,"fieldname":"rttcnt","label":"Total number for receipts type Training","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"75ce921638","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":10,"fieldname":"rtpcnt","label":"Total number for receipts type Proforma ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"e9cd742b1d","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":11,"fieldname":"tsvt","label":"Total sales tax amount","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"f9965b385a","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":12,"fieldname":"trvt","label":"Total return tax amount ","oldfieldname":null,"fieldtype":"Currency","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"name":"49af831420","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":13,"fieldname":"rtocnt","label":"Opening run number per receipt type","oldfieldname":null,"fieldtype":"Int","oldfieldtype":null,"options":null,"search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":null,"trigger":null,"collapsible_depends_on":null,"mandatory_depends_on":null,"read_only_depends_on":null,"depends_on":null,"permlevel":0,"ignore_user_permissions":0,"width":null,"print_width":null,"columns":0,"default":null,"description":null,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"fetch_from":null,"doctype":"DocField","__unsaved":1},{"docstatus":0,"doctype":"DocField","name":"new-docfield-14","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":14,"__unedited":false,"label":"Target table ","fieldname":"table"},{"docstatus":0,"doctype":"DocField","name":"new-docfield-15","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":15,"__unedited":false,"label":"Target data processing","fieldname":"actionCd"},{"docstatus":0,"doctype":"DocField","name":"new-docfield-16","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"search_index":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"allow_in_quick_entry":0,"bold":0,"translatable":0,"collapsible":0,"fetch_if_empty":0,"hidden":0,"read_only":0,"unique":0,"set_only_once":0,"allow_bulk_edit":0,"permlevel":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"hide_border":0,"in_filter":0,"no_copy":0,"print_hide":0,"print_hide_if_no_value":0,"parent":"dailyzreport","parentfield":"fields","parenttype":"DocType","idx":16,"__unedited":false,"label":"Report date ","fieldname":"zdt"}],"permissions":[{"name":"b2ec86ee68","creation":"2021-06-16 12:11:27.313077","modified":"2021-06-16 12:11:27.313077","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"dailyzreport","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","match":null,"read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"set_user_permissions":0,"doctype":"DocPerm","__unsaved":1}],"actions":[],"links":[],"__last_sync_on":"2021-06-16T10:11:27.684Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

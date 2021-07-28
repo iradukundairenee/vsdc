@@ -1,0 +1,10 @@
+2021-07-02 12:16:03,665 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 12:16:03,922 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 12:16:04,109 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 12:16:04,587 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 12:16:04,665 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 12:16:04,947 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 12:16:05,044 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 12:16:05,320 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 12:16:05,406 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-02 12:16:05,695 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors

@@ -1,0 +1,825 @@
+2021-06-30 22:03:00,052 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:04:00,427 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:04:00,456 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:04:00,562 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:04:00,638 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:04:00,741 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:04:00,816 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:04:01,194 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:04:01,273 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:04:01,515 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:04:01,593 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:04:01,844 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:04:01,920 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:04:02,165 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:05:34,299 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:06:34,633 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:07:34,887 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:08:35,229 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:08:35,326 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:08:35,547 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:08:35,623 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:08:35,740 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:08:35,817 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:08:36,342 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:08:36,419 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:08:36,790 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:08:36,868 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:08:37,121 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:08:37,203 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:08:37,473 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:09:35,500 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:10:35,789 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:11:36,084 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:12:36,397 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:12:36,509 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:12:36,778 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:12:36,865 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:12:36,985 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:12:37,064 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:12:37,725 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:12:37,830 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:12:38,232 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:12:38,317 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:12:38,591 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:12:38,674 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:12:38,963 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:13:36,623 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:14:36,854 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:15:37,197 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:15:37,341 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:15:37,983 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:15:38,075 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:15:38,644 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:15:38,727 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:15:39,133 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:16:37,671 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:16:37,699 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:16:37,856 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:16:37,946 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:16:38,079 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:16:38,169 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:16:38,566 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:16:38,654 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:16:38,940 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:16:39,028 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:16:39,303 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:16:39,389 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:16:39,655 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:17:37,972 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:18:38,307 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:19:38,594 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:20:38,903 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:20:39,067 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:20:39,414 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:20:39,493 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:20:39,614 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:20:39,693 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:20:40,146 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:20:40,226 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:20:40,608 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:20:40,688 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:20:40,950 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:20:41,029 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:20:41,301 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:21:39,186 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:22:39,450 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:23:39,764 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:24:40,056 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:24:40,184 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:24:40,449 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:24:40,527 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:24:40,642 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:24:40,719 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:24:41,459 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:24:41,538 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:24:41,948 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:24:42,032 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:24:42,296 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:24:42,373 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:24:42,645 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:25:40,360 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:26:40,740 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:27:41,065 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:28:41,411 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:28:41,445 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:28:41,562 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:28:41,639 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:28:41,754 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:28:41,831 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:28:42,144 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:28:42,226 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:28:42,474 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:28:42,551 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:28:42,805 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:28:42,883 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:28:43,098 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:29:41,766 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:30:42,130 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:30:42,200 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:30:42,654 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:30:42,751 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:30:43,319 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:30:43,411 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:30:43,848 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:31:42,448 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:32:42,914 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:32:42,970 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:32:43,288 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:32:43,404 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:32:43,568 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:32:43,665 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:32:44,357 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:32:44,538 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:32:44,997 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:32:45,099 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:32:45,412 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:32:45,499 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:32:45,853 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:33:43,234 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:34:43,561 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:35:43,849 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:36:44,269 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:36:44,299 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:36:44,422 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:36:44,500 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:36:44,615 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:36:44,691 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:36:45,007 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:36:45,084 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:36:45,334 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:36:45,427 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:36:45,717 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:36:45,792 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:36:46,029 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:37:44,546 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:38:44,813 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:39:45,130 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:40:45,510 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:40:45,713 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:40:46,110 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:40:46,189 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:40:46,306 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:40:46,383 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:40:47,085 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:40:47,163 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:40:47,567 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:40:47,643 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:40:47,900 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:40:47,978 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:40:48,262 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:41:45,888 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:42:46,232 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:43:46,529 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:44:46,937 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:44:46,970 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:44:47,091 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:44:47,176 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:44:47,286 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:44:47,361 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:44:47,673 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:44:47,752 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:44:47,997 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:44:48,074 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:44:48,323 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:44:48,400 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:44:48,615 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:45:47,243 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:45:47,299 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:45:47,739 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 22:45:47,822 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:45:48,380 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 22:45:48,461 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:45:48,850 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 22:46:47,575 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:47:47,922 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:48:48,298 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:48:48,330 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:48:48,443 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:48:48,520 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:48:48,634 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:48:48,711 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:48:49,019 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:48:49,096 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:48:49,333 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:48:49,409 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:48:49,657 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:48:49,733 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:48:49,951 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:49:48,683 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:50:49,026 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:51:49,372 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:52:49,732 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:52:49,884 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:52:50,235 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:52:50,320 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:52:50,461 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:52:50,597 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:52:51,221 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:52:51,319 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:52:51,671 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:52:51,766 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:52:52,084 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:52:52,225 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:52:52,522 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:53:50,050 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:54:50,350 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:55:50,632 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:56:50,972 DEBUG scheduler Queued events for site benefactors
+2021-06-30 22:56:51,057 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 22:56:51,274 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 22:56:51,365 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:56:51,487 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 22:56:51,569 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:56:52,107 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 22:56:52,190 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:56:52,591 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 22:56:52,672 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:56:52,942 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 22:56:53,025 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 22:56:53,298 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 22:57:51,255 DEBUG scheduler Queued events for site benefactors
+2021-06-30 23:08:10,588 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-06-30 23:08:10,663 DEBUG scheduler Queued events for site benefactors
+2021-06-30 23:08:11,910 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-06-30 23:08:12,068 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-06-30 23:08:13,021 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-06-30 23:08:13,113 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-06-30 23:08:13,547 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-06-30 23:08:13,627 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-06-30 23:08:13,981 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-06-30 23:08:14,118 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-06-30 23:08:14,465 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-06-30 23:08:14,554 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-06-30 23:08:14,909 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-06-30 23:08:15,010 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-06-30 23:08:15,363 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-06-30 23:08:15,451 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-06-30 23:08:15,783 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-06-30 23:08:15,886 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 23:08:16,108 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 23:08:16,198 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 23:08:16,312 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 23:08:16,385 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 23:08:16,997 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 23:08:17,084 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 23:08:17,347 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 23:08:17,442 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 23:08:17,746 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 23:08:17,839 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 23:08:18,122 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 23:08:18,234 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 23:08:18,641 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 23:08:18,742 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 23:08:19,255 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 23:08:19,344 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 23:08:19,800 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 23:17:48,394 DEBUG scheduler Queued events for site benefactors
+2021-06-30 23:17:48,417 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-06-30 23:17:48,588 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-06-30 23:17:48,673 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 23:17:48,796 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-06-30 23:17:48,876 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 23:17:49,393 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-06-30 23:17:49,517 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 23:17:49,930 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-06-30 23:17:50,030 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 23:17:50,423 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-06-30 23:17:50,594 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-06-30 23:17:51,734 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-06-30 23:17:51,885 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 23:17:52,325 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-06-30 23:17:52,422 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 23:17:52,998 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-06-30 23:17:53,084 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 23:17:53,488 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-06-30 23:18:49,265 DEBUG scheduler Queued events for site benefactors
+2021-07-01 02:19:14,366 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary for benefactors
+2021-07-01 02:19:14,367 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for benefactors
+2021-07-01 02:19:20,553 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary for benefactors
+2021-07-01 02:19:21,609 DEBUG scheduler Queued events for site benefactors
+2021-07-01 02:19:21,746 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for benefactors
+2021-07-01 02:19:22,294 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for benefactors
+2021-07-01 02:19:23,613 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for benefactors
+2021-07-01 02:19:34,617 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for benefactors
+2021-07-01 02:19:35,281 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for benefactors
+2021-07-01 02:19:35,438 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for benefactors
+2021-07-01 02:19:35,737 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for benefactors
+2021-07-01 02:19:37,157 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for benefactors
+2021-07-01 02:19:37,425 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for benefactors
+2021-07-01 02:19:37,460 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for benefactors
+2021-07-01 02:19:37,718 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for benefactors
+2021-07-01 02:19:38,790 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for benefactors
+2021-07-01 02:19:39,036 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for benefactors
+2021-07-01 02:19:40,151 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for benefactors
+2021-07-01 02:19:40,378 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for benefactors
+2021-07-01 02:19:41,405 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for benefactors
+2021-07-01 02:19:41,648 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for benefactors
+2021-07-01 02:19:42,851 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for benefactors
+2021-07-01 02:19:42,896 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for benefactors
+2021-07-01 02:19:43,169 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for benefactors
+2021-07-01 19:53:19,136 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for benefactors
+2021-07-01 19:53:19,214 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:53:21,744 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for benefactors
+2021-07-01 19:53:22,860 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for benefactors
+2021-07-01 19:53:23,632 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for benefactors
+2021-07-01 19:53:23,738 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for benefactors
+2021-07-01 19:53:24,093 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for benefactors
+2021-07-01 19:53:24,211 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for benefactors
+2021-07-01 19:53:24,719 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for benefactors
+2021-07-01 19:53:24,811 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for benefactors
+2021-07-01 19:53:25,558 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for benefactors
+2021-07-01 19:53:25,639 INFO scheduler Scheduled Job Start: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for benefactors
+2021-07-01 19:53:26,032 INFO scheduler Scheduled Job Failed: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for benefactors
+2021-07-01 19:53:26,148 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for benefactors
+2021-07-01 19:53:26,615 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for benefactors
+2021-07-01 19:53:26,727 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for benefactors
+2021-07-01 19:53:27,287 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for benefactors
+2021-07-01 19:53:27,374 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for benefactors
+2021-07-01 19:53:27,728 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for benefactors
+2021-07-01 19:53:27,828 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for benefactors
+2021-07-01 19:53:28,460 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for benefactors
+2021-07-01 19:53:28,567 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for benefactors
+2021-07-01 19:53:28,906 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for benefactors
+2021-07-01 19:53:29,002 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for benefactors
+2021-07-01 19:53:29,342 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for benefactors
+2021-07-01 19:53:29,420 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 19:53:29,943 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 19:53:30,031 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 19:53:30,543 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 19:53:30,633 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 19:53:30,959 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 19:53:31,041 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 19:53:31,378 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 19:53:31,462 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 19:53:31,815 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 19:53:31,902 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 19:53:32,241 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 19:53:32,322 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 19:53:32,655 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 19:53:32,766 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 19:53:33,169 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 19:53:33,284 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 19:53:33,416 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 19:53:33,489 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 19:53:33,721 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 19:53:33,809 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 19:53:34,186 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 19:53:34,366 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 19:53:34,741 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 19:53:34,832 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 19:53:35,134 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 19:53:35,217 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 19:53:35,472 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 19:53:35,563 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 19:53:35,925 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 19:53:36,008 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 19:53:36,447 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 19:53:36,547 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 19:53:36,946 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 19:54:21,209 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:55:22,233 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:56:22,513 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:56:22,545 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 19:56:22,666 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 19:56:22,743 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 19:56:22,865 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 19:56:22,996 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 19:56:23,359 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 19:56:23,438 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 19:56:23,685 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 19:56:23,805 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 19:56:24,064 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 19:56:24,144 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 19:56:24,375 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 19:57:22,823 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:58:23,157 DEBUG scheduler Queued events for site benefactors
+2021-07-01 19:59:23,428 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:00:23,844 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 20:00:23,915 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:00:24,207 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 20:00:24,289 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 20:00:24,759 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 20:00:24,839 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 20:00:25,145 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 20:00:25,226 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 20:00:25,531 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 20:00:25,608 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 20:00:25,929 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 20:00:26,009 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 20:00:26,347 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 20:00:26,426 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 20:00:26,733 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 20:00:26,812 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 20:00:27,118 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 20:00:27,196 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:00:27,311 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:00:27,385 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:00:27,496 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:00:27,571 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:00:27,877 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:00:27,952 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:00:28,184 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:00:28,261 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:00:28,510 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:00:28,584 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:00:28,800 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 20:00:28,873 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:00:29,207 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:00:29,285 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:00:29,655 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:00:29,740 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:00:30,070 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:01:24,246 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:02:24,625 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:03:25,119 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:04:25,573 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:04:25,600 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:04:25,718 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:04:25,796 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:04:25,910 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:04:25,995 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:04:26,334 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:04:26,413 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:04:26,648 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:04:26,727 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:04:26,979 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:04:27,056 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:04:27,274 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 20:05:25,988 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:06:26,500 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:07:26,991 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:15:41,342 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:15:41,347 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:15:41,477 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:15:41,552 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:15:41,741 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:15:41,900 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:15:43,003 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:15:43,130 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:15:43,495 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:15:43,579 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:15:43,867 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:15:43,951 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:15:44,220 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 20:15:44,302 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:15:44,643 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:15:44,725 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:15:45,095 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:15:45,179 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:15:45,511 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:16:41,790 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:16:41,822 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:16:41,956 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:16:42,041 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:16:42,177 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:16:42,267 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:16:42,734 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:16:42,841 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:16:43,158 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:16:43,256 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:16:43,564 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:16:43,649 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:16:43,862 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 20:35:38,362 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:35:38,379 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:35:38,543 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:35:38,649 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:35:38,770 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:35:38,855 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:35:39,203 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:35:39,323 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:35:39,586 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:35:39,678 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:35:39,963 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:35:40,052 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:35:40,290 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 20:35:40,382 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:35:40,773 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 20:35:40,867 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:35:41,276 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 20:35:41,368 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:35:41,798 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 20:37:15,512 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 20:37:15,533 DEBUG scheduler Queued events for site benefactors
+2021-07-01 20:37:15,737 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 20:37:15,825 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:37:15,936 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 20:37:16,028 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:37:16,433 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 20:37:16,544 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:37:16,874 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 20:37:16,965 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:37:17,254 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 20:37:17,335 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 20:37:17,568 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:09:38,302 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 21:09:38,383 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:09:38,736 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 21:09:38,816 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 21:09:39,327 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 21:09:39,412 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 21:09:39,860 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 21:09:39,969 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 21:09:40,316 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 21:09:40,405 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 21:09:40,767 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 21:09:40,850 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 21:09:41,192 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 21:09:41,289 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 21:09:41,645 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 21:09:41,731 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 21:09:42,064 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 21:09:42,149 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 21:09:42,283 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 21:09:42,363 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:09:42,488 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:09:42,567 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:09:42,922 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:09:43,009 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:09:43,282 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:09:43,366 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:09:43,665 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:09:43,747 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 21:09:43,987 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:09:44,070 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:09:44,462 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:09:44,555 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:09:44,992 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:09:45,078 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:09:45,527 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:36:42,449 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 21:36:42,478 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:36:42,578 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 21:36:42,662 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:36:42,775 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:36:42,848 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:36:43,221 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:36:43,302 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:36:43,650 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:36:43,724 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:36:44,007 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:36:44,099 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 21:36:44,343 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:36:44,428 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:36:44,806 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:36:44,902 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:36:45,335 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:36:45,412 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:36:45,742 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:37:42,722 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:38:43,186 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:39:43,473 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:40:43,832 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:40:43,860 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 21:40:43,973 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 21:40:44,050 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:40:44,163 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:40:44,239 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:40:44,544 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:40:44,618 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:40:44,859 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:40:44,934 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:40:45,179 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:40:45,253 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 21:40:45,468 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:41:44,219 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:42:44,554 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:52:04,321 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:52:04,322 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 21:52:04,444 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 21:52:04,521 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:52:04,651 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:52:04,727 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:52:05,070 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:52:05,179 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:52:05,500 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:52:05,616 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:52:05,952 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:52:06,050 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 21:52:06,312 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:52:06,406 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:52:06,800 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 21:52:06,899 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:52:07,368 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 21:52:07,447 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:52:07,821 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 21:53:04,583 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:54:04,815 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:55:05,053 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:56:05,376 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:56:05,404 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 21:56:05,528 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 21:56:05,606 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:56:05,726 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 21:56:05,803 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:56:06,158 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 21:56:06,236 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:56:06,479 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 21:56:06,561 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:56:06,815 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 21:56:06,889 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 21:56:07,104 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 21:57:05,717 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:58:06,022 DEBUG scheduler Queued events for site benefactors
+2021-07-01 21:59:06,354 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:00:06,779 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 22:00:06,841 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:00:07,257 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-01 22:00:07,339 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 22:00:07,963 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-01 22:00:08,043 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 22:00:08,366 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-01 22:00:08,445 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 22:00:08,808 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-07-01 22:00:08,893 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 22:00:09,213 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-01 22:00:09,296 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 22:00:09,609 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-01 22:00:09,689 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 22:00:09,997 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-01 22:00:10,077 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 22:00:10,384 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-01 22:00:10,462 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 22:00:10,576 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 22:00:10,651 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:00:10,763 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:00:10,838 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:00:11,145 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:00:11,220 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:00:11,457 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:00:11,561 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:00:11,813 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:00:11,891 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 22:00:12,105 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 22:00:12,180 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 22:00:12,515 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-01 22:00:12,593 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 22:00:12,981 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-01 22:00:13,061 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 22:00:13,394 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-01 22:02:07,213 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:03:07,810 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:04:08,196 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:04:08,227 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 22:04:08,345 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 22:04:08,419 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:04:08,531 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:04:08,607 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:04:08,927 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:04:08,998 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:04:09,236 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:04:09,309 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:04:09,556 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:04:09,632 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 22:04:09,847 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 22:05:08,496 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:06:08,823 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:07:09,125 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:08:09,478 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:08:09,510 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 22:08:09,641 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 22:08:09,729 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:08:09,861 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:08:09,947 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:08:10,304 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:08:10,389 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:08:10,659 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:08:10,746 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:08:11,035 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:08:11,120 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 22:08:11,361 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-01 22:09:09,799 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:10:10,156 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:11:10,498 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:12:10,820 DEBUG scheduler Queued events for site benefactors
+2021-07-01 22:12:10,849 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-01 22:12:10,966 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-01 22:12:11,044 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:12:11,172 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-01 22:12:11,263 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:12:11,585 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-01 22:12:11,664 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:12:11,913 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-01 22:12:11,991 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:12:12,245 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-01 22:12:12,337 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-01 22:12:12,594 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-02 07:09:04,090 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for benefactors
+2021-07-02 07:09:04,128 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for benefactors
+2021-07-02 07:09:04,595 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:09:05,100 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for benefactors
+2021-07-02 07:09:05,186 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for benefactors
+2021-07-02 07:09:05,514 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for benefactors
+2021-07-02 07:09:05,598 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for benefactors
+2021-07-02 07:09:05,605 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for benefactors
+2021-07-02 07:09:05,686 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for benefactors
+2021-07-02 07:09:06,002 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for benefactors
+2021-07-02 07:09:06,081 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for benefactors
+2021-07-02 07:09:06,101 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for benefactors
+2021-07-02 07:09:06,180 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for benefactors
+2021-07-02 07:09:06,530 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for benefactors
+2021-07-02 07:09:06,609 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for benefactors
+2021-07-02 07:09:06,981 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for benefactors
+2021-07-02 07:09:07,060 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for benefactors
+2021-07-02 07:09:07,668 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for benefactors
+2021-07-02 07:09:07,763 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for benefactors
+2021-07-02 07:09:08,115 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for benefactors
+2021-07-02 07:09:08,194 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for benefactors
+2021-07-02 07:09:08,521 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for benefactors
+2021-07-02 07:09:08,567 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for benefactors
+2021-07-02 07:09:08,648 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for benefactors
+2021-07-02 07:09:08,962 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for benefactors
+2021-07-02 07:09:09,041 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for benefactors
+2021-07-02 07:09:09,118 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for benefactors
+2021-07-02 07:09:09,731 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for benefactors
+2021-07-02 07:09:09,810 INFO scheduler Scheduled Job Start: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for benefactors
+2021-07-02 07:09:10,120 INFO scheduler Scheduled Job Failed: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for benefactors
+2021-07-02 07:09:10,203 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for benefactors
+2021-07-02 07:09:10,523 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for benefactors
+2021-07-02 07:09:10,600 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for benefactors
+2021-07-02 07:09:11,057 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for benefactors
+2021-07-02 07:09:11,135 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for benefactors
+2021-07-02 07:09:11,514 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for benefactors
+2021-07-02 07:09:11,593 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for benefactors
+2021-07-02 07:09:11,906 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for benefactors
+2021-07-02 07:09:11,983 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for benefactors
+2021-07-02 07:09:12,293 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for benefactors
+2021-07-02 07:09:12,371 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for benefactors
+2021-07-02 07:09:12,680 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for benefactors
+2021-07-02 07:09:12,760 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-02 07:09:13,279 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for benefactors
+2021-07-02 07:09:13,358 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-02 07:09:13,873 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for benefactors
+2021-07-02 07:09:13,952 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-02 07:09:14,271 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for benefactors
+2021-07-02 07:09:14,349 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for benefactors
+2021-07-02 07:09:14,659 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for benefactors
+2021-07-02 07:09:14,735 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-02 07:09:15,068 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for benefactors
+2021-07-02 07:09:15,147 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-02 07:09:15,610 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for benefactors
+2021-07-02 07:09:15,690 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-02 07:09:15,997 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for benefactors
+2021-07-02 07:09:16,075 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-02 07:09:16,458 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for benefactors
+2021-07-02 07:09:16,536 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-02 07:09:16,647 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-02 07:09:16,732 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:09:16,846 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:09:16,933 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:09:17,366 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:09:17,444 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:09:17,779 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:09:17,855 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:09:18,182 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:09:18,265 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-02 07:09:18,533 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-02 07:09:18,634 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-02 07:09:19,054 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-02 07:09:19,149 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-02 07:09:19,984 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-02 07:09:20,106 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-02 07:09:20,685 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-02 07:10:04,845 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:11:05,150 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:12:05,524 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:12:05,578 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-02 07:12:05,718 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-02 07:12:05,791 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:12:05,894 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:12:05,966 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:12:06,499 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:12:06,572 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:12:06,821 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:12:06,893 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:12:07,143 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:12:07,215 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-02 07:12:07,445 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-02 07:13:05,909 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:14:06,283 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:15:06,706 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:15:06,759 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-02 07:15:07,139 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for benefactors
+2021-07-02 07:15:07,218 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-02 07:15:07,611 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for benefactors
+2021-07-02 07:15:07,689 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-02 07:15:08,087 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for benefactors
+2021-07-02 07:16:06,974 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:16:06,999 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-02 07:16:07,098 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
+2021-07-02 07:16:07,170 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:16:07,269 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for benefactors
+2021-07-02 07:16:07,341 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:16:07,645 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for benefactors
+2021-07-02 07:16:07,718 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:16:07,956 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for benefactors
+2021-07-02 07:16:08,032 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:16:08,282 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for benefactors
+2021-07-02 07:16:08,355 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for benefactors
+2021-07-02 07:16:08,570 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for benefactors
+2021-07-02 07:17:07,346 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:18:07,715 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:22:12,228 DEBUG scheduler Queued events for site benefactors
+2021-07-02 07:22:12,253 INFO scheduler Scheduled Job Start: frappe.monitor.flush for benefactors
+2021-07-02 07:22:12,359 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for benefactors
